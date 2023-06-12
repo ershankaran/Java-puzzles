@@ -34,6 +34,12 @@ public class App {
        sumThese(myNum,myNum);
 
        System.out.println(sumThese2(24, 45));
+
+       sumthese3(23,45.67);
+    }
+
+    private static void sumthese3(int i, double d) {
+        System.out.println(i+d);
     }
 
     static void printHello(){
