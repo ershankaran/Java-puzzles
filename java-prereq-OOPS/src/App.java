@@ -6,5 +6,11 @@ public class App {
        2. Class is the container of fields/attributes and methods.
        3. main method is the starting point of the java
        */ 
+
+       printHello();
+    }
+
+    static void printHello(){
+        System.out.println("Hello from static method");
     }
 }
