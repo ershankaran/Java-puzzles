@@ -14,6 +14,8 @@ public class Animal {
         this.weightInKg = weightInKg;
     }
 
+    public Animal(){}
+
     public void eat(){
         System.out.println("eating..");
     }
